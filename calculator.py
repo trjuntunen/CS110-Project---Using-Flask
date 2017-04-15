@@ -8,7 +8,7 @@ def homepage():
 	html += '<html>\n'
 	html += '<body>\n'
 	html += '<form align="center" method="POST" action="/calculate" name="form">\n'
-	html += '<input placeholder="1st Number" name="firstNumber">'
+	html += '<input placeholder="1st Number" name="firstNumber">\n'
 	html += '<input placeholder="2nd Number" name="secondNumber">\n'
 	html += '<input placeholder="Operand" name="operand">\n'
 	html += '<input type="submit" value="Submit">\n'
