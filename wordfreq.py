@@ -31,7 +31,7 @@ def calculate():
     html += '<table border="1">'
     html += '<th>Word</th>'
     html += '<th>Count</th>'
-    for i in wordDictionary.keys():
+    for i in sorted(wordDictionary.keys()):
         html += '<tr>'
         html += '<td>' + str(i) + '</td>'
         html += '<td>' + str(wordDictionary[i]) + '</td>'

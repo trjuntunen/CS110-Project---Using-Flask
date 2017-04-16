@@ -25,7 +25,7 @@ def calculate():
 	operand = request.form['operand']
 
 	if operand != "+" and operand != "-" and operand != "*" and operand != "/":
-		answer = '<p>Invalid operand. <a href="/">Click here to go back and try again</p></a>'
+		answer = '<p>Invalid input. <a href="/">Click here to go back and try again</p></a>'
 	if operand == "+":
 		answer = str(int(firstNum) + int(secondNum))
 	if operand == "-":

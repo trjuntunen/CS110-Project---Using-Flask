@@ -26,9 +26,6 @@ def addTask():
 	for i in tasks:
 		html += '<li>' + str(i) + '</li>\n'
 	html += '</ol>\n'
-	html += '<h3>Completed Tasks</h3>\n'
-	html += '<ol>\n'
-	html += '</ol>\n'
 	html += '<p><a href="/">Click here to go back</a></p>\n'
 	return html
 
